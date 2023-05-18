@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    width: 415px; height: 1200px;
+    width: 400px; height: 1200px;
     background-color: white;
     text-align: center;
     margin:auto;
@@ -43,5 +43,5 @@ footer{
 }
 @keyframes fontbig {
     0% {font-size:100%}
-    100% {font-size:190%}
+    100% {font-size:440%}
 }
