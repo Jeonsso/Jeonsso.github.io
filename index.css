@@ -1,0 +1,47 @@
+body {
+    font-family: 'Gowun Dodum', sans-serif;
+    margin:0;
+}
+
+header {
+    width: 415px; height: 1200px;
+    background-color: white;
+    text-align: center;
+    margin:auto;
+    position: relative;
+}
+img {
+    width: 150px;
+}
+.top_f{
+    transform: rotate(180deg);
+}
+.f_bar{
+    margin-top:30px;
+    margin-bottom:0;
+}
+.cor{
+    font-family: 'NanumGarMaesGeur';
+    font-size: 70px;
+    margin-top:0px;
+    padding-top:0px;
+    margin-bottom:60px;
+    color: rgba(59, 33, 0, 0.591);
+    animation-name:fontbig;
+    animation-duration:1s;
+}
+.pre{
+    font-size:18px;
+    margin-bottom: 60px;
+    color:purple;
+}
+footer{
+    width: 430px; height: 50px;
+    text-align: center;
+    margin:auto;
+    position: relative;
+}
+@keyframes fontbig {
+    0% {font-size:100%}
+    100% {font-size:190%}
+}
